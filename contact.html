@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body id="contact">
@@ -24,6 +24,17 @@
         <div class="main">
             <div class="wrapper clearfix">
                 <h2>Contact</h2>
+                <form name="form" class="form">
+                    <fieldset>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="John Smith" class="name">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="example@gmail.com" class="email">
+                        <label for="message">Message</label>
+                        <textarea type="text" name="comments" placeholder="Message..."></textarea>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
             </div>
         </div>
     </main>
