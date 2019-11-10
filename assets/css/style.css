@@ -19,14 +19,17 @@
  
   h1 {
     color: #fff;
+    font-size: 2em;
   }
 
   h2 {
       color: #4aaaa5;
+      font-size: 1.875em;
   }
 
   h3 {
       font-weight: normal;
+      font-size: 1.17em;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -70,7 +73,7 @@
     margin: auto;
   }
 
-  .logo {
+  .logo h1 {
       background-color: #4aaaa5;
       padding: 20px;
       margin: 0;
@@ -78,10 +81,16 @@
   }
 
   @media (max-width: 600px) {
-    .logo {
+    .logo h1 {
       font-size: 16px;
     }
   }
+
+.logo h1:hover,
+.logo h1:active {
+    opacity: .8;
+    transition: .4s all;
+}
 
   .navigation-links {
       margin-top: 29px;
@@ -113,7 +122,7 @@
   .main .wrapper {
       padding: 20px;
       background-color: #fff;
-      margin: 20px auto;
+      margin: 40px auto;
       border: thin solid #ddd;
   }
 
